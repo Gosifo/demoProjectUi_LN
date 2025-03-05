@@ -4,12 +4,12 @@
 This project is a Selenium-based UI automation framework utilizing Cucumber for behavior-driven development (BDD). It automates the job search functionality on the LexisNexis website, ensuring a seamless and efficient testing process.
 
 Tech Stack
-•   Java: 11 (Update version as needed in pom.xml)
-•   Selenium WebDriver: 4.29.0
-•   Cucumber BDD: 7.21.0
-•   JUnit 4: 4.13.2
-•   WebDriverManager: 5.8.0
-•   Maven: Build & Dependency Management
+*   Java: 11 (Update version as needed in pom.xml)
+*   Selenium WebDriver: 4.29.0
+*   Cucumber BDD: 7.21.0
+*   JUnit 4: 4.13.2
+*   WebDriverManager: 5.8.0
+*   Maven: Build & Dependency Management
 
 ## Project Structure
 |-- src/test/java
