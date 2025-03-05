@@ -29,29 +29,29 @@ Tech Stack
 ## Setup Instructions
 1. Prerequisites
    Ensure the following dependencies are installed:
-   •    Java 17
-   •    Maven (Run mvn -version to verify installation)
-   •    Google Chrome & ChromeDriver (Managed automatically by WebDriverManager)
+   *     Java 17
+   *     Maven (Run mvn -version to verify installation)
+   *     Google Chrome & ChromeDriver (Managed automatically by WebDriverManager)
 
 2. Running Tests with Maven
    To execute tests, use the following command:
    mvn clean test
    Alternatively, navigate to the TestRunner class in the utilityHelper folder and run the tests directly from there.
 
-3. Generating Reports (Optional)
-   To generate test execution reports, run:
-   mvn test -Dcucumber.options="--plugin json:target/cucumber.json"
-   mvn test -Dcucumber.options="--plugin html:target/cucumber.html"
+3. Generating Reports: To generate test execution reports, run:
+   * mvn test -Dcucumber.options="--plugin json:target/cucumber.json".
+   Or
+   * mvn test -Dcucumber.options="--plugin html:target/cucumber.html".
 
 ## Test Execution Report
-•   Test results are saved in cucumber.json or cucumber.html within the target/cucumber-report/ directory.
-•   To generate reports, tests must be executed using the TestRunner class.
-•   Use the Cucumber Reports Plugin to generate comprehensive HTML reports.
+*    Test results are saved in cucumber.json or cucumber.html within the target/cucumber-report/ directory.
+*    To generate reports, tests must be executed using the TestRunner class.
+*   Use the Cucumber Reports Plugin to generate comprehensive HTML reports.
 
 ## Troubleshooting
-•   Tests not running? Ensure Java and Maven are correctly installed.
-•   WebDriver issues? Run mvn clean and restart the tests.
-•   Element not found? Increase implicit/explicit waits in Selenium.
+*    Tests not running? Ensure Java and Maven are correctly installed.
+*    WebDriver issues? Run mvn clean and restart the tests.
+*   Element not found? Increase implicit/explicit waits in Selenium.
 
 This framework ensures efficient, maintainable, and scalable UI testing with Selenium and Cucumber. Happy testing! 
 
